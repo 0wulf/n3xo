@@ -1,0 +1,527 @@
+{
+  "persons": [
+    {
+      "id": "p1",
+      "name": "Ethan Nakamura",
+      "avatar": null,
+      "group": "work",
+      "tags": ["systems", "rust"],
+      "metAt": "2023-04-10",
+      "metContext": "Interview at Oxide Computer",
+      "notes": "Principal engineer. Obsessed with bare-metal programming and firmware.",
+      "socials": { "linkedin": "ethannakamura" }
+    },
+    {
+      "id": "p2",
+      "name": "Priya Chandrasekaran",
+      "avatar": null,
+      "group": "work",
+      "tags": ["infra", "kubernetes"],
+      "metAt": "2023-05-20",
+      "metContext": "First week at Oxide Computer",
+      "notes": "SRE lead. Built their entire observability stack from scratch.",
+      "socials": {}
+    },
+    {
+      "id": "p3",
+      "name": "Marcus Webb",
+      "avatar": null,
+      "group": "university",
+      "tags": ["compilers", "PLT"],
+      "metAt": "2020-09-01",
+      "metContext": "Compilers class at CMU",
+      "notes": "Thesis partner. Now works on the Zig compiler toolchain.",
+      "socials": { "twitter": "marcuswebb_dev" }
+    },
+    {
+      "id": "p4",
+      "name": "Sana Okafor",
+      "avatar": null,
+      "group": "university",
+      "tags": ["distributed-systems", "databases"],
+      "metAt": "2020-09-01",
+      "metContext": "Distributed Systems seminar",
+      "notes": "Built a CRDT library that got 5k GitHub stars. Now at Turso.",
+      "socials": {}
+    },
+    {
+      "id": "p5",
+      "name": "Jordan Reeves",
+      "avatar": null,
+      "group": "event",
+      "tags": ["WASM", "edge"],
+      "metAt": "2024-10-15",
+      "metContext": "Strange Loop 2024",
+      "notes": "Gave a talk on WASM runtimes at the edge. Super well-connected in the systems community.",
+      "socials": { "twitter": "jordanreeves_io" }
+    },
+    {
+      "id": "p6",
+      "name": "Anika Petrov",
+      "avatar": null,
+      "group": "event",
+      "tags": ["security", "CTF"],
+      "metAt": "2024-10-15",
+      "metContext": "Strange Loop 2024 hallway track",
+      "notes": "Security researcher. Introduced me to Jordan at the afterparty.",
+      "socials": {}
+    },
+    {
+      "id": "p7",
+      "name": "Leo Fitzgerald",
+      "avatar": null,
+      "group": "friends",
+      "tags": ["music", "photography"],
+      "metAt": "2018-06-01",
+      "metContext": "High school friend",
+      "notes": "Documentary filmmaker. Best friend since we were 15.",
+      "socials": {}
+    },
+    {
+      "id": "p8",
+      "name": "Nadia Kowalski",
+      "avatar": null,
+      "group": "friends",
+      "tags": ["startups", "fintech"],
+      "metAt": "2021-07-20",
+      "metContext": "Backpacking trip across Japan",
+      "notes": "Serial entrepreneur. Co-founded a payments startup that got acquired.",
+      "socials": { "linkedin": "nadiakowalski" }
+    },
+    {
+      "id": "p9",
+      "name": "Tariq Hassan",
+      "avatar": null,
+      "group": "community",
+      "tags": ["open-source", "Go"],
+      "metAt": "2025-01-18",
+      "metContext": "GopherCon EU meetup",
+      "notes": "Maintains a popular Go HTTP framework with 8k stars.",
+      "socials": { "twitter": "tariqhassan_go" }
+    },
+    {
+      "id": "p10",
+      "name": "Yuki Tanaka",
+      "avatar": null,
+      "group": "community",
+      "tags": ["zero-knowledge", "cryptography"],
+      "metAt": "2025-03-12",
+      "metContext": "ZK Summit Berlin",
+      "notes": "ZK circuit developer. We placed 2nd at the hackathon together.",
+      "socials": {}
+    },
+    {
+      "id": "p11",
+      "name": "Sienna Okonkwo",
+      "avatar": null,
+      "group": "online",
+      "tags": ["writing", "devrel"],
+      "metAt": "2024-05-10",
+      "metContext": "Replied to my blog post on Fediverse",
+      "notes": "Writes a newsletter on developer tooling with 15k subscribers.",
+      "socials": { "twitter": "siennawrites" }
+    },
+    {
+      "id": "p12",
+      "name": "Dylan Park",
+      "avatar": null,
+      "group": "work",
+      "tags": ["PM", "hardware"],
+      "metAt": "2023-08-15",
+      "metContext": "Sprint kickoff at Oxide Computer",
+      "notes": "Product manager on my team. Previously at Apple Silicon division.",
+      "socials": {}
+    },
+    {
+      "id": "p13",
+      "name": "Clara Nilsson",
+      "avatar": null,
+      "group": "family",
+      "tags": [],
+      "metAt": "2016-12-25",
+      "metContext": "Family reunion",
+      "notes": "Cousin. Finishing her PhD in neuroscience at MIT.",
+      "socials": {}
+    },
+    {
+      "id": "p14",
+      "name": "Ravi Subramaniam",
+      "avatar": null,
+      "group": "university",
+      "tags": ["networking", "linux"],
+      "metAt": "2020-10-05",
+      "metContext": "OS & Networking group project",
+      "notes": "Linux kernel contributor. Works as a kernel engineer at Red Hat.",
+      "socials": { "linkedin": "ravisub" }
+    },
+    {
+      "id": "p15",
+      "name": "Mila Chen",
+      "avatar": null,
+      "group": "event",
+      "tags": ["design-systems", "accessibility"],
+      "metAt": "2025-08-20",
+      "metContext": "Config 2025 (Figma conference)",
+      "notes": "Accessibility advocate at Vercel. Gives incredible workshops on inclusive design.",
+      "socials": { "twitter": "milachen_a11y" }
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "p1",
+      "target": "p2",
+      "type": "colleague",
+      "label": "Same team at Oxide",
+      "metDate": "2023-05-20",
+      "metContext": "Both at Oxide Computer from early days",
+      "strength": 4,
+      "evolution": [
+        { "date": "2023-05", "status": "colleagues" },
+        { "date": "2024-01", "status": "friends" }
+      ],
+      "notes": "Collaborate daily on the rack-scale OS"
+    },
+    {
+      "id": "r2",
+      "source": "p1",
+      "target": "p12",
+      "type": "colleague",
+      "label": "Engineer and PM at Oxide",
+      "metDate": "2023-08-15",
+      "metContext": "Dylan joined Ethan's team",
+      "strength": 3,
+      "evolution": [
+        { "date": "2023-08", "status": "colleagues" }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "r3",
+      "source": "p2",
+      "target": "p12",
+      "type": "colleague",
+      "label": "Infra and Product",
+      "metDate": "2023-08-15",
+      "metContext": "Weekly sprint syncs",
+      "strength": 4,
+      "evolution": [
+        { "date": "2023-08", "status": "colleagues" },
+        { "date": "2024-06", "status": "friends" }
+      ],
+      "notes": "Priya and Dylan do trail running together on weekends"
+    },
+    {
+      "id": "r4",
+      "source": "p3",
+      "target": "p4",
+      "type": "classmate",
+      "label": "University classmates",
+      "metDate": "2020-09-01",
+      "metContext": "Same CS cohort at CMU",
+      "strength": 3,
+      "evolution": [
+        { "date": "2020-09", "status": "classmates" },
+        { "date": "2021-06", "status": "friends" }
+      ],
+      "notes": "Pulled all-nighters together for finals"
+    },
+    {
+      "id": "r5",
+      "source": "p3",
+      "target": "p14",
+      "type": "classmate",
+      "label": "OS project together",
+      "metDate": "2020-10-05",
+      "metContext": "Group project in OS & Networking class",
+      "strength": 2,
+      "evolution": [
+        { "date": "2020-10", "status": "classmates" }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "r6",
+      "source": "p4",
+      "target": "p14",
+      "type": "classmate",
+      "label": "Same cohort",
+      "metDate": "2020-09-01",
+      "metContext": "Shared classes",
+      "strength": 2,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r7",
+      "source": "p5",
+      "target": "p6",
+      "type": "friend",
+      "label": "Met through systems community",
+      "metDate": "2024-03-01",
+      "metContext": "Systems programming Discord server",
+      "strength": 4,
+      "evolution": [
+        { "date": "2024-03", "status": "acquaintances" },
+        { "date": "2024-08", "status": "friends" }
+      ],
+      "notes": "Anika invited Jordan to speak at Strange Loop"
+    },
+    {
+      "id": "r8",
+      "source": "p5",
+      "target": "p9",
+      "type": "acquaintance",
+      "label": "Tech communities overlap",
+      "metDate": "2025-02-15",
+      "metContext": "Cross-community WASM+Go meetup",
+      "strength": 2,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r9",
+      "source": "p7",
+      "target": "p8",
+      "type": "friend",
+      "label": "Friends since Japan trip",
+      "metDate": "2021-07-20",
+      "metContext": "Backpacking trip through Japan",
+      "strength": 5,
+      "evolution": [
+        { "date": "2021-07", "status": "acquaintances" },
+        { "date": "2022-01", "status": "close friends" }
+      ],
+      "notes": "Best friends. Hang out every week."
+    },
+    {
+      "id": "r10",
+      "source": "p7",
+      "target": "p13",
+      "type": "acquaintance",
+      "label": "Met at my birthday",
+      "metDate": "2022-04-10",
+      "metContext": "Birthday party",
+      "strength": 1,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r11",
+      "source": "p8",
+      "target": "p1",
+      "type": "acquaintance",
+      "label": "Introduced them at dinner",
+      "metDate": "2024-02-20",
+      "metContext": "Networking dinner",
+      "strength": 2,
+      "evolution": [
+        { "date": "2024-02", "status": "acquaintances" },
+        { "date": "2024-09", "status": "exploring investment" }
+      ],
+      "notes": "Ethan might angel invest in Nadia's next startup"
+    },
+    {
+      "id": "r12",
+      "source": "p9",
+      "target": "p10",
+      "type": "friend",
+      "label": "Berlin tech community",
+      "metDate": "2025-03-12",
+      "metContext": "Met at a meetup in Berlin",
+      "strength": 3,
+      "evolution": [
+        { "date": "2025-03", "status": "acquaintances" },
+        { "date": "2025-05", "status": "friends" }
+      ],
+      "notes": "Share interest in decentralized protocols"
+    },
+    {
+      "id": "r13",
+      "source": "p11",
+      "target": "p5",
+      "type": "acquaintance",
+      "label": "Online interaction → IRL",
+      "metDate": "2024-10-15",
+      "metContext": "Finally met at Strange Loop after interacting online",
+      "strength": 2,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r14",
+      "source": "p11",
+      "target": "p9",
+      "type": "acquaintance",
+      "label": "Newsletter collaboration",
+      "metDate": "2025-05-01",
+      "metContext": "Sienna interviewed Tariq for her newsletter",
+      "strength": 2,
+      "evolution": [],
+      "notes": "Content collaboration on developer tooling"
+    },
+    {
+      "id": "r15",
+      "source": "p2",
+      "target": "p15",
+      "type": "friend",
+      "label": "Design & engineering community",
+      "metDate": "2025-08-20",
+      "metContext": "Config 2025",
+      "strength": 3,
+      "evolution": [
+        { "date": "2025-08", "status": "acquaintances" },
+        { "date": "2025-11", "status": "friends" }
+      ],
+      "notes": "Both care deeply about design systems in infra tooling"
+    },
+    {
+      "id": "r16",
+      "source": "p6",
+      "target": "p1",
+      "type": "acquaintance",
+      "label": "Security + systems overlap",
+      "metDate": "2025-01-20",
+      "metContext": "Security meetup in SF",
+      "strength": 2,
+      "evolution": [],
+      "notes": "Ethan is looking for security expertise for Oxide"
+    },
+    {
+      "id": "r17",
+      "source": "p10",
+      "target": "p8",
+      "type": "colleague",
+      "label": "Crypto + fintech crossover",
+      "metDate": "2025-06-15",
+      "metContext": "Yuki advises Nadia's startup on ZK proofs",
+      "strength": 3,
+      "evolution": [
+        { "date": "2025-06", "status": "advisor" }
+      ],
+      "notes": "Consulting on zero-knowledge identity verification"
+    },
+    {
+      "id": "r18",
+      "source": "p3",
+      "target": "p1",
+      "type": "mentor",
+      "label": "Ethan mentors Marcus",
+      "metDate": "2024-04-01",
+      "metContext": "Connected them for compiler architecture advice",
+      "strength": 3,
+      "evolution": [
+        { "date": "2024-04", "status": "mentor-mentee" }
+      ],
+      "notes": "Ethan helps Marcus with low-level optimization decisions"
+    },
+    {
+      "id": "r19",
+      "source": "p14",
+      "target": "p1",
+      "type": "colleague",
+      "label": "Ravi joined Oxide",
+      "metDate": "2025-02-01",
+      "metContext": "Ravi came on board as kernel engineer at Oxide",
+      "strength": 3,
+      "evolution": [
+        { "date": "2025-02", "status": "colleagues" }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "r20",
+      "source": "p15",
+      "target": "p5",
+      "type": "acquaintance",
+      "label": "Tech Twitter mutuals",
+      "metDate": "2025-09-01",
+      "metContext": "Design+dev interactions on Twitter/X",
+      "strength": 1,
+      "evolution": [],
+      "notes": "Occasional online interactions"
+    },
+    {
+      "id": "r21",
+      "source": "p8",
+      "target": "p11",
+      "type": "acquaintance",
+      "label": "Newsletter feature",
+      "metDate": "2024-08-15",
+      "metContext": "Sienna wrote about Nadia's startup",
+      "strength": 2,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r22",
+      "source": "p7",
+      "target": "p3",
+      "type": "friend",
+      "label": "Introduced them",
+      "metDate": "2021-02-01",
+      "metContext": "House party with friends",
+      "strength": 2,
+      "evolution": [],
+      "notes": "They get along but don't hang out often"
+    },
+    {
+      "id": "r23",
+      "source": "p4",
+      "target": "p9",
+      "type": "colleague",
+      "label": "Databases + open source",
+      "metDate": "2025-05-15",
+      "metContext": "Sana contributed to Tariq's Go framework",
+      "strength": 3,
+      "evolution": [
+        { "date": "2025-05", "status": "collaborators" }
+      ],
+      "notes": "Sana added database middleware to Tariq's framework"
+    },
+    {
+      "id": "r24",
+      "source": "p12",
+      "target": "p14",
+      "type": "colleague",
+      "label": "PM and kernel eng at Oxide",
+      "metDate": "2025-02-01",
+      "metContext": "Oxide Computer team",
+      "strength": 2,
+      "evolution": [],
+      "notes": ""
+    },
+    {
+      "id": "r25",
+      "source": "p6",
+      "target": "p10",
+      "type": "acquaintance",
+      "label": "Hackathon judges",
+      "metDate": "2025-03-12",
+      "metContext": "ZK Summit Berlin hackathon",
+      "strength": 2,
+      "evolution": [],
+      "notes": "Anika was a judge at the hackathon"
+    }
+  ],
+  "config": {
+    "groups": {
+      "work":     { "color": "#3B82F6", "label": "Work" },
+      "university": { "color": "#8B5CF6", "label": "University" },
+      "event":      { "color": "#F59E0B", "label": "Event" },
+      "friends":      { "color": "#10B981", "label": "Friends" },
+      "family":     { "color": "#EF4444", "label": "Family" },
+      "online":      { "color": "#EC4899", "label": "Online" },
+      "community":   { "color": "#06B6D4", "label": "Community" }
+    },
+    "relationTypes": {
+      "friend":     { "color": "#10B981", "dash": null },
+      "colleague":    { "color": "#3B82F6", "dash": null },
+      "mentor":    { "color": "#F59E0B", "dash": "6,3" },
+      "acquaintance":  { "color": "#6B7280", "dash": "3,3" },
+      "classmate": { "color": "#8B5CF6", "dash": null },
+      "neighbor":    { "color": "#78716C", "dash": "8,4" },
+      "family":  { "color": "#EF4444", "dash": null }
+    }
+  }
+}
